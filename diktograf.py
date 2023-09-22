@@ -1,5 +1,6 @@
 # Türkçe-Fransızca Sözlük
 import streamlit as st
+st.title("Diktotraf")
 
 diktotraf = {"abajur": "(a)(fr) chose qui diminue la lumière d'une lampe, abat-jour(m)",
              "abaküs": "(a)(fr) dispositif utilisé pour les calculs partiqulièrement par les enfants, abaque(m)",
@@ -20,6 +21,7 @@ diktotraf = {"abajur": "(a)(fr) chose qui diminue la lumière d'une lampe, abat-
              "aceleci": "(s) personne qui fait tout sans calme",
              "acemi": "(s) personne inexpériencée, débutant",
              }
+@st.cache_data
 def sozluk(key):
     key = input("Bir sözcük giriniz:")
     if key.lower() in diktotraf.keys():
