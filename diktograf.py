@@ -19,8 +19,7 @@ diktotraf = {"abajur": "(a)(fr) chose qui diminue la lumière d'une lampe, abat-
              "acayip": "(s) chose, evenement surprenant, bizarre",
              "acele etmek": "faire quelque chose vite, se depecher, se hâter, se précipiter, se presser",
              "aceleci": "(s) personne qui fait tout sans calme",
-             "acemi": "(s) personne inexpériencée, débutant",
-             }
+             "acemi": "(s) personne inexpériencée, débutant"}
 @st.cache_data
 def sozluk(key):
     key = input("Bir sözcük giriniz:")
