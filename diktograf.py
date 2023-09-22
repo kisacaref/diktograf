@@ -25,5 +25,3 @@ def sozluk(key):
         return(diktotraf[key.lower()])
     else:
         return("Sözlüğümüzde henüz böyle bir kelime yok :)")
-
-sozluk("ala")
