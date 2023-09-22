@@ -1,5 +1,4 @@
 # Türkçe-Fransızca Sözlük
-import streamlit as st
 
 diktotraf = {"abajur": "(a)(fr) chose qui diminue la lumière d'une lampe, abat-jour(m)",
              "abaküs": "(a)(fr) dispositif utilisé pour les calculs partiqulièrement par les enfants, abaque(m)",
