@@ -21,6 +21,7 @@ diktotraf = {"abajur": "(a)(fr) chose qui diminue la lumière d'une lampe, abat-
              "acemi": "(s) personne inexpériencée, débutant",
              }
 def sozluk(key):
+    key = input("Bir sözcük giriniz:")
     if key.lower() in diktotraf.keys():
         return(diktotraf[key.lower()])
     else:
